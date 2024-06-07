@@ -1,0 +1,191 @@
+#previous-button {
+    -fx-background-image: url('graphics/FF1.png');
+}
+
+.radio-button {
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#random-checkbox:selected .box {
+    -fx-background-image: url('graphics/SHUFFLE2.png');
+}
+
+.slider .thumb {
+    -fx-opacity: 0;
+    -fx-padding: 12;
+}
+
+.radio-button:selected .radio .dot {
+    -fx-opacity: 0;
+}
+
+#lyrics-radio-button:selected {
+    -fx-background-image: url('graphics/ARTICLE2.png');
+}
+
+#fullscreen-toggle-button {
+    -fx-background-image: url('graphics/fullscreen_FILL0_wght700_GRAD0_opsz24.png');
+}
+
+.text-area .scroll-pane, .text-area .scroll-pane .viewport, .text-area .scroll-pane .content {
+    -fx-background-color: transparent;
+}
+
+#play-pause-button {
+    -fx-background-image: url('graphics/PALY.png');
+}
+
+#root-pane {
+    -fx-background-color: #555;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.52), 50, 0, 0, 18);
+    -fx-background-insets: 32 50 68 50;
+}
+
+#fullscreen-toggle-button:selected {
+    -fx-background-image: url('graphics/close_fullscreen_FILL0_wght700_GRAD0_opsz24.png');
+}
+
+#list-radio-button {
+    -fx-background-image: url('graphics/LIST.png');
+}
+
+.list-view .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.list-view .scroll-bar .track {
+    -fx-background-color: transparent;
+}
+
+.progress-bar .bar {
+    -fx-background-insets: 0;
+    -fx-background-radius: 12;
+    -fx-padding: 0;
+}
+
+#list-radio-button:selected {
+    -fx-background-image: url('graphics/LIST1.png');
+}
+
+#lyrics-radio-button {
+    -fx-background-image: url('graphics/ARTICLE.png');
+}
+
+.progress-bar {
+    -fx-accent: white;
+}
+
+#random-checkbox .box {
+    -fx-background-image: url('graphics/SHUFFLE.png');
+}
+
+.text-area {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+    -fx-font-family: 'Microsoft YaHei', sans-serif;
+}
+
+#root-pane-maximized {
+    -fx-background-color: #555;
+}
+
+#repeat-checkbox .box {
+    -fx-background-image: url('graphics/REPEAT.png');
+}
+
+.list-view .scroll-bar:vertical .decrement-button {
+    -fx-padding: 0;
+    -fx-opacity: 0;
+}
+
+#repeat-checkbox:selected .box {
+    -fx-background-image: url('graphics/REPEAT1.png');
+}
+
+.list-view .scroll-bar {
+    -fx-background-color: transparent;
+    -fx-opacity: 0.5;
+    -fx-pref-width: 9;
+}
+
+.check-box .box .mark {
+    -fx-opacity: 0;
+    -fx-padding: 0;
+}
+
+#drag-indicator {
+    -fx-background-image: url('graphics/DRAG.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-insets: 0;
+    -fx-background-position: center center;
+}
+
+#play-pause-button:selected {
+    -fx-background-image: url('graphics/PAUSE.png');
+}
+
+#next-button {
+    -fx-background-image: url('graphics/FF.png');
+}
+
+#close-button {
+    -fx-background-image: url('graphics/close_FILL0_wght700_GRAD0_opsz24.png');
+}
+
+#minimize-button {
+    -fx-background-image: url('graphics/minimize_FILL0_wght700_GRAD0_opsz24.png');
+}
+
+.radio-button .radio {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+}
+
+.slider .track {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.list-view .scroll-bar:vertical .increment-button {
+    -fx-padding: 0;
+    -fx-opacity: 0;
+}
+
+.toggle-button, .button, .check-box, .radio-button {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.list-cell:selected {
+    -fx-font-weight: bold;
+}
+
+.list-view .scroll-bar .increment-button {
+    -fx-background-color: transparent;
+}
+
+.list-view .scroll-bar .thumb {
+    -fx-background-color: white;
+}
+
+#repeat-checkbox:indeterminate .box {
+    -fx-background-image: url('graphics/REPEAT2.png');
+}
+
+.progress-bar .track {
+    -fx-background-color: transparent;
+}
+
+.check-box .box {
+    -fx-background-color: transparent;
+    -fx-padding: 12;
+}
